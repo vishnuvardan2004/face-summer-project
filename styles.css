@@ -1,0 +1,133 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("images/placeholder-images/bg-gradient.jpg"), url("images/placeholder-images/bg-gradient.jpg");
+  background-position: center top, center top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-color: #f2f4f8;
+  font-size: 1.6rem;
+  color: #1e1e1e;
+  min-height: 100vh;
+}
+
+
+/* Container */
+.container-box {
+  max-width: 960px;
+  margin: 2rem auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 5rem;
+  color: #0f3057;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #4a6572;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Paragraphs and Lists */
+p, li {
+  line-height: 1.7;
+  margin: 0.8rem 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a0522d;
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #222;
+  color: #eee;
+  font-size: 1.4rem;
+}
+
+footer a {
+  color: #f5c28b;
+}
+
+footer a:hover {
+  color: #64c1ac;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .container-box {
+    padding: 1.5rem;
+  }
+}
